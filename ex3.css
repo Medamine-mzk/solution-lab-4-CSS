@@ -1,0 +1,20 @@
+.container{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.drap{
+    height: 400px;
+}
+.jaune{
+    background-color: #fcd116;
+    height: 50%;
+}
+.bleu{
+    background-color: #003893;
+    height: 25%;
+}
+.rouge{
+    background-color: #ce1126;
+    height: 25%;
+}

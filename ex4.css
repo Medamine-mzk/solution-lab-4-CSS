@@ -1,0 +1,35 @@
+body{
+    padding : 20px;
+    background-color: #5c94fc;
+}
+.container{
+    width: 50%;
+    margin: auto;
+    border: 5px solid red;
+}
+.div1{
+    border-right: 5px solid black;
+    background-color: #4976c9;
+    height: 100px;
+    width: 25%;
+}
+.div2{
+    border-right: 5px solid black;
+    border-top: 5px solid black;
+    background-color: #375897;
+    height: 100px;
+    width: 50%;
+}
+.div3{
+    border-right: 5px solid black;
+    border-top: 5px solid black;
+    background-color: #243b64;
+    height: 100px;
+    width: 75%;
+}
+.div4{
+    border-top: 5px solid black;
+    background-color: #121d32;
+    height: 100px;
+    width: 100%;
+}

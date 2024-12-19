@@ -1,0 +1,19 @@
+table{
+    width: 60%;
+    border-collapse: collapse;
+}
+.table-dark thead{
+    background-color: black;
+    color: white;
+}
+/*td, th {....}*/
+.table-dark td, .table-dark th,.table-light td, .table-light th{
+    padding: 10px;
+}
+/*tr {...}*/
+.table-dark tr,.table-light tr{
+    border-top: 1px solid #ddd;
+}
+.table-light tbody tr:nth-child(odd){
+    background-color: rgba(0, 0, 0,0.2);/*0--->1*/
+}

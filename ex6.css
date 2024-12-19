@@ -1,0 +1,64 @@
+.container{
+    width: 80%;
+    margin: auto;
+}
+.header{
+    background-color: #299be4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /*border-top-left-radius: 5px;
+    border-top-right-radius: 5px;*/
+    border-radius: 5px 5px 0px 0px;
+}
+.title{
+    font-size: 24px;
+    color: white;
+}
+.button{
+    width: 100px;
+    background-color: white;
+}
+.button a{
+    text-decoration: none;
+    color: #808080;
+}
+.table{
+    text-align: center;/*------*/
+    width: 100%;
+    border-collapse: collapse;
+}
+.table tbody tr{
+    border-top: 1px solid  rgba(0, 0, 0, 0.3);
+}
+.table tr,.table th{
+    padding: 10px;
+}
+.cancel{
+    color: #f44336;
+}
+.setting{
+    color:  #299be4;
+}
+.active{
+    color:  green;
+}
+.offline{
+    color:  red;
+}
+.notactive{
+    color:  yellow;
+}
+.cercle{
+    border-radius: 50%;
+}
+.table a{
+    text-decoration: none;
+    font-weight: bold;
+    color: gray;
+}
+.name{
+    display: inline-flex; /*-----*/
+    align-items: center;
+}
